@@ -149,7 +149,7 @@ docker hub:
 docker tag webapp tommavl/webapp
 docker login
 docker push tommavl/webapp
-
+docker pull tommavl/webapp
 docker compose exec webapp yarn test
 ```
 
